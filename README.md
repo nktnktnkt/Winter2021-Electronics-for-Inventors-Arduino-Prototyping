@@ -1,4 +1,4 @@
-# Electronics-for-Inventors-Arduino-Prototyping (Winter 2020)
+# Electronics-for-Inventors-Arduino-Prototyping (Winter 2021)
 
 ### 4 weeks - Tuesdays and Thursdays Jan 12 - Feb 4th
 
