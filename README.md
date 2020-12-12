@@ -4,13 +4,13 @@
 
 ## Requirements
 Hello! Prior to the class, please download and install Arduino and purchase this Arduino Kit
-- Arduino kit from [Amazon $30 (including shipping)](https://www.amazon.com/Miuzei-Projects-Breadboard-Detailed-Tutorial/dp/B07BTB3N3J/ref=sxin_2_ac_d_pm?ac_md=2-0-VW5kZXIgJDUw-ac_d_pm&cv_ct_cx=arduino+kit&dchild=1&keywords=arduino+kit&pd_rd_i=B07BTB3N3J&pd_rd_r=0b111f06-67d6-4b9f-8362-b7fae52652bf&pd_rd_w=Vtjoq&pd_rd_wg=FYh3L&pf_rd_p=03c604b9-aff8-43e1-ae09-374522ec365b&pf_rd_r=AAYAZ5G9XX3BHMCR0TF0&psc=1&qid=1599166840&sr=1-1-22d05c05-1231-4126-b7c4-3e7a9c0027d0)
+- Arduino kit from [Amazon $30 (including shipping with coupon applied)](https://www.amazon.com/REXQualis-Development-Membrane-Receiver-Detailed/dp/B074WMHLQ4/ref=sr_1_12_sspa?dchild=1&keywords=arduino+uno+kit&qid=1607745892&sr=8-12-spons&psc=1&smid=AX8SR0V05IQ2E&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUExSVVFV0VGSVFXQkpTJmVuY3J5cHRlZElkPUEwNDAzNjk1MjJSMlhOWDlWUzhCWCZlbmNyeXB0ZWRBZElkPUEwOTM0MzM5MVQ5RVpVR1pBMlNGTiZ3aWRnZXROYW1lPXNwX210ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=)
 - Download and install the [Arduino Software](https://www.arduino.cc/en/Main/Software)
 
 #### This is a [cool kit](https://www.amazon.com/Miuzei-Projects-Breadboard-Detailed-Tutorial/dp/B07BTB3N3J/ref=sxin_2_ac_d_pm?ac_md=2-0-VW5kZXIgJDUw-ac_d_pm&cv_ct_cx=arduino+kit&dchild=1&keywords=arduino+kit&pd_rd_i=B07BTB3N3J&pd_rd_r=0b111f06-67d6-4b9f-8362-b7fae52652bf&pd_rd_w=Vtjoq&pd_rd_wg=FYh3L&pf_rd_p=03c604b9-aff8-43e1-ae09-374522ec365b&pf_rd_r=AAYAZ5G9XX3BHMCR0TF0&psc=1&qid=1599166840&sr=1-1-22d05c05-1231-4126-b7c4-3e7a9c0027d0) we found to use for the class.
-![foo](https://github.com/nktnktnkt/Electronics-for-Inventors-Arduino-Prototyping-Fall-2020/blob/master/pics/arduino_kit.JPG?raw=true)
+![foo](https://github.com/nktnktnkt/Winter2020-Electronics-for-Inventors-Arduino-Prototyping/blob/main/pics/arduino_kit.JPG)
 #### This is the current version of Arduino from the [website](https://www.arduino.cc/en/Main/Software)
-![foo](https://github.com/nktnktnkt/Electronics-for-Inventors-Arduino-Prototyping-Fall-2020/blob/master/pics/arduino_download2.JPG)
+![foo](https://github.com/nktnktnkt/Winter2020-Electronics-for-Inventors-Arduino-Prototyping/blob/main/pics/arduino_download2.JPG)
 
 
 ## Sylabus
