@@ -1,7 +1,7 @@
 
 RECORDINGS:</br></br>
 Class 1: Jan 12 </br>
-
+https://portlandcc.zoom.us/rec/share/74TsVkOg1TWbg1oCoHOHw3pHrrKO-NVcCCWskylBj-7pEiGZt99jVn2nxp_5O3Cc.sBaADJ9Plx_ZAxcL
 </br></br>
 Class 2: Jan 14 </br>
 
