@@ -5,7 +5,7 @@ int POT = A0; // analog input for potentiometer
 int ButtonRed = 4;
 int ButtonGreen = 3;
 int ButtonBlue = 2;
-int colorSelect = 9; // initialize on Red channel
+int colorSelect = 11; // initialize on Red channel
 
 
 void setup() {
