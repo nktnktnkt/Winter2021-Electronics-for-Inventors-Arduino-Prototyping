@@ -35,15 +35,17 @@ void loop() {
 
 void capSense(int triggerPin, int keyPin, int ledPin, String LED) {
 
-  int trigReading = digitalRead(triggerPin);
-  if (trigReading == LOW) {
+  int pulseReading = digitalRead(triggerPin);
+  Serial.print(pulseReading);
+  if (pulseReading == LOW) {
     digitalWrite(triggerPin, HIGH);
+    delayMicroseconds(100);
   } else {
     digitalWrite(triggerPin, LOW);
   }
 
-  int duration = pulseIn(keyPin, HIGH, 100);
-  Serial.print(LED);
+  int duration = pulseIn(keyPin, HIGH, 1000);
+//  Serial.print(LED);
   Serial.print("\t");
   Serial.print(duration);
   Serial.print("\t");
