@@ -15,8 +15,8 @@ void setup() {
 }
 
 void loop() {
-  float duration; //float allows decimal points up to 8 digits, rather than whole numbers like an integer. 
-  float distance;
+  //float duration; //float allows decimal points up to 8 digits, rather than whole numbers like an integer. 
+  //float distance;
 
   //send out a quick pulse from the trigger pin
   digitalWrite(trigPin, HIGH);
@@ -24,8 +24,8 @@ void loop() {
   digitalWrite(trigPin, LOW);
 
   //read how long it took to bounce back (in microseconds):
-  duration = pulseIn(echoPin, HIGH);
-  distance = duration / 130; //Distance in inches. Calibrated from Serial monitor, 130 microseconds = approximately 1 inch
+  float duration = pulseIn(echoPin, HIGH);
+  float distance = duration / 130; //Distance in inches. Calibrated from Serial monitor, 130 microseconds = approximately 1 inch
 
   //Map the LED PWM response exponentially, by squaring the input values and mapping that to the PWM output range:
   int LEDValue = map(sq(distance), sq(minDistance), sq(maxDistance), 0, 255); 
@@ -33,7 +33,7 @@ void loop() {
   //Control the LED and generate a tone if the ultrasound sensor detects something within the min and max distance range:
   if (distance >= minDistance && distance <= maxDistance) { 
 
-    Serial.println(distance);
+    Serial.println(duration);
     analogWrite(LEDPin, LEDValue);
 
     //110 Hz is the pitch of note "A4" in western music theory. Multiplying this by an integer rounded value of "distance" 
