@@ -2,9 +2,9 @@
 int pulsePin1 = 7;
 int pulsePin2 = 6;
 int pulsePin3 = 5;
-int key1 = 4;
-int key2 = 3;
-int key3 = 2;
+int touch1 = 4;
+int touch2 = 3;
+int touch3 = 2;
 int ledRed = 12;
 int ledGreen = 11;
 int ledBlue = 10;
@@ -14,9 +14,9 @@ void setup() {
   pinMode(pulsePin1, OUTPUT);
   pinMode(pulsePin2, OUTPUT);
   pinMode(pulsePin3, OUTPUT);
-  pinMode(key1, INPUT);
-  pinMode(key2, INPUT);
-  pinMode(key3, INPUT);
+  pinMode(touch1, INPUT);
+  pinMode(touch2, INPUT);
+  pinMode(touch3, INPUT);
   pinMode(ledRed, OUTPUT);
   pinMode(ledGreen, OUTPUT);
   pinMode(ledBlue, OUTPUT);
@@ -26,29 +26,24 @@ void setup() {
 
 void loop() {
 
-  capSense(pulsePin1, key1, ledRed, "RED");
-  capSense(pulsePin2, key2, ledGreen, "GREEN");
-  capSense(pulsePin3, key3, ledBlue, "BLUE");
-  Serial.println();
+  capSense(pulsePin1, touch1, ledRed, "RED");
+  capSense(pulsePin2, touch2, ledGreen, "GREEN");
+  capSense(pulsePin3, touch3, ledBlue, "BLUE");
+//  Serial.println();
 
 }
 
-void capSense(int triggerPin, int keyPin, int ledPin, String LED) {
+void capSense(int triggerPin, int touchPin, int ledPin, String LED) {
+  digitalWrite(triggerPin, HIGH);
+  delayMicroseconds(100);
+  digitalWrite(triggerPin, LOW);
 
-  int pulseReading = digitalRead(triggerPin);
-  Serial.print(pulseReading);
-  if (pulseReading == LOW) {
-    digitalWrite(triggerPin, HIGH);
-    delayMicroseconds(100);
-  } else {
-    digitalWrite(triggerPin, LOW);
-  }
+  int duration = pulseIn(touchPin, HIGH, 1000);
 
-  int duration = pulseIn(keyPin, HIGH, 1000);
 //  Serial.print(LED);
-  Serial.print("\t");
-  Serial.print(duration);
-  Serial.print("\t");
+//  Serial.print("\t");
+//  Serial.print(duration);
+//  Serial.print("\t");
 
   if (duration > 0) {
     digitalWrite(ledPin, HIGH);
