@@ -13,7 +13,7 @@ Class 4: Jan 21 </br>
 https://portlandcc.zoom.us/rec/share/S2DEcF3fsh9rqk0ZaZlTo5hkbkkjrDV9FmITW7uTmVfYrW2BA6rsxC85cz-LSBRd.gvZNmKEJGcFny3Wj
 </br></br>
 Class 5: Jan 26 </br>
-
+https://portlandcc.zoom.us/rec/share/6SOwZwmEoKUQj2dwzwUrGI4svoZK2SPHx32Opc78QuHTy76vJdfUzrfCZmgBDH4l.1_2bd3JQRdlza6Sp
 </br></br>
 Class 6: Jan 28 </br>
 
