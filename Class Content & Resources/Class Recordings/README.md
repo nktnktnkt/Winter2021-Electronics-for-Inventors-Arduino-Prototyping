@@ -19,7 +19,7 @@ Class 6: Jan 28 </br>
 https://portlandcc.zoom.us/rec/share/IGXGNRgXjFcP2Rr-R86Bxgnwx64BIdNH8QPNBRO7V7f_9OOJlu96oQFJWFqp2jjH.j4FVAzVnLpad2OtF
 </br></br>
 Class 7: Feb 2 </br>
-
+https://portlandcc.zoom.us/rec/share/1KCpzjH5148T7mWgjLjQcLaByC0UcPM7Ubaj_vC5MdoOGlbflDsdE1ups3oOdk_6.98mKYHvaWk5fy-ix
 </br></br>
 Class 8: Feb 4 </br>
 
