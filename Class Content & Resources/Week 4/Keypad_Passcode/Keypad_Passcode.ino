@@ -36,35 +36,35 @@ void setup() {
 }
 
 void loop() {
-  
+
   char enterKey = customKeypad.getKey(); //reads the last key entered
 
   if (enterKey) {
     Serial.println(enterKey);
-    //add the entered key to the indexed slot in the array 
+    //add the entered key to the indexed slot in the array
     //corresponding to the value of keyCount:
-    enterCode[keyCount] = enterKey; 
+    enterCode[keyCount] = enterKey;
     keyCount++; //increase keyCount to move to the next slot
   }
-  
-  //if the number of keys entered is greater or equal to those 
+
+  //if the number of keys entered is greater or equal to those
   //of the passCode, compare codes:
   if (keyCount >= sizeof(passCode)) {
 
     //compare each indexed slot in the two codes one by one, for the length of passCode:
     for (int i = 0; i < sizeof(passCode); i++) {
-      
-      if (enterCode[i] == passCode[i]) { 
+
+      if (enterCode[i] == passCode[i]) {
         passSuccess = true; //if correct, set passSuccess 'true' and continue checking
         continue;
       } else {
         passSuccess = false; //if wrong, set passSucess 'false'
         break; //ends the for() loop prematurely, since it's wrong
       }
-      
+
     }
 
-    //if passSuccess remains 'true' after the code is analyzed above, 
+    //if passSuccess remains 'true' after the code is analyzed above,
     //do the thing and blink green:
     if (passSuccess == true) {
       digitalWrite(ledCorrect, HIGH);
@@ -75,6 +75,7 @@ void loop() {
       delay(100);
       digitalWrite(ledCorrect, LOW);
       myServo.write(90); //rotate the servo to 90 degrees
+      Serial.println("CORRECT");
 
 
     } else { //if not, don't do the thing and blink red:
@@ -86,6 +87,8 @@ void loop() {
       delay(100);
       digitalWrite(ledWrong, LOW);
       myServo.write(0); //set servo to 0 degrees
+      Serial.println("WRONG");
+
     }
 
     //reset the keyCount and the enterCode for next time:
@@ -105,6 +108,7 @@ void loop() {
     digitalWrite(ledWrong, HIGH);
     delay(100);
     digitalWrite(ledWrong, LOW);
+    Serial.println("RESET");
   }
 
 }
